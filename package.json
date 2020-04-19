@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android-thomas": "cd android && gradlew clean && cd .. && react-native run-android --port 4001",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-game-engine": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
